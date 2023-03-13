@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230313 14:56:06.317" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="d:\OneDrive - SLK Software Services Pvt Ltd\Documents\Azure\Merge%20PDF\tasks.robot">
+<test id="s1-t1" name="Minimal task" line="9">
+<kw name="Merge Pdf" library="merge">
+<arg>D:\\OneDrive - SLK Software Services Pvt Ltd\\Documents\\Python\\merge input</arg>
+<arg>D:\\OneDrive - SLK Software Services Pvt Ltd\\Documents\\Python\\merge Output\\mergeresult.pdf</arg>
+<doc>Defining the function</doc>
+<msg timestamp="20230313 14:56:12.467" level="INFO">['1040-2019.pdf', '1040-2020.pdf', '1992-1040.pdf', '1993-1040.pdf']
+4</msg>
+<status status="PASS" starttime="20230313 14:56:11.751" endtime="20230313 14:56:12.477"/>
+</kw>
+<status status="PASS" starttime="20230313 14:56:11.737" endtime="20230313 14:56:12.487"/>
+</test>
+<doc>Template robot main suite.</doc>
+<status status="PASS" starttime="20230313 14:56:06.359" endtime="20230313 14:56:12.497"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
