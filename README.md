@@ -1,10 +1,16 @@
-# Introduction 
-This solution will merge multiple PDFs into a single PDF
+# Template: Standard Robot Framework
 
-# Getting Started
-Install the require packages mentioned in the requirement.txt  
+This is the simplest template to start from.
 
-# Build and Test
-Add this solution into your project folder and call the respective function "mergepdf()"
-Input parameter - Location of the folder and output path 
-Output - Merged PDF file in the output path
+- Get started from a simple task template in `tasks.robot`.
+  - Uses [Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework/basics) syntax.
+- You can configure your robot `robot.yaml`.
+- You can configure dependencies in `conda.yaml`.
+
+## Learning materials
+
+- [Robocorp Developer Training Courses](https://robocorp.com/docs/courses)
+- [Documentation links on Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)
+- [Example bots in Robocorp Portal](https://robocorp.com/portal)
+
+An example robot. Merges two different PDF Files into a single PDF file.
